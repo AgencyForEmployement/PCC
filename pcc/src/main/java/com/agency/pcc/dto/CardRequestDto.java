@@ -3,6 +3,7 @@ package com.agency.pcc.dto;
 import java.time.LocalDateTime;
 
 public class CardRequestDto {
+    public int paymentId;
     public String pan;  //issuer, kupac
     public String securityCode;
     public String cardHolderName;

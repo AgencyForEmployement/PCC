@@ -16,7 +16,7 @@ public class BankAccount {
     @Column
     private int id;
     @Column
-    private String panName;
+    private String pan;
     @Column
     private String bankName;
     @Column

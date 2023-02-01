@@ -2,15 +2,13 @@ package com.agency.pcc.dto;
 
 
 import com.agency.pcc.controller.TransactionStatus;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
 @Builder
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 public class BankTransactionRequestDto {
